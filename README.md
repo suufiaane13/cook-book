@@ -80,9 +80,7 @@ CookBook est une application web développée avec Laravel 12 permettant aux uti
    ```
 
 6. **Créer la base de données**
-   ```sql
-   CREATE DATABASE cook_book CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-   ```
+
 
 7. **Exécuter les migrations**
    ```bash
