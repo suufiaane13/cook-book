@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-olive: #6A994E;
+        --color-green-light: #A7C957;
+        --color-cream: #F2F2F2;
+        --color-brown: #8D6E63;
+    }
+}
+
+@layer utilities {
+    .bg-olive {
+        background-color: #6A994E;
+    }
+    .bg-green-light {
+        background-color: #A7C957;
+    }
+    .bg-cream {
+        background-color: #F2F2F2;
+    }
+    .bg-brown {
+        background-color: #8D6E63;
+    }
+    .text-olive {
+        color: #6A994E;
+    }
+    .text-green-light {
+        color: #A7C957;
+    }
+    .text-cream {
+        color: #F2F2F2;
+    }
+    .text-brown {
+        color: #8D6E63;
+    }
+    .border-olive {
+        border-color: #6A994E;
+    }
+    .border-green-light {
+        border-color: #A7C957;
+    }
+    .border-brown {
+        border-color: #8D6E63;
+    }
+    .from-olive {
+        --tw-gradient-from: #6A994E;
+        --tw-gradient-to: rgb(106 153 78 / 0);
+        --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    }
+    .to-green-light {
+        --tw-gradient-to: #A7C957;
+    }
+    .hover\:from-olive:hover {
+        --tw-gradient-from: #5a8840;
+        --tw-gradient-to: rgb(90 136 64 / 0);
+        --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    }
+    .hover\:to-green-light:hover {
+        --tw-gradient-to: #97b947;
+    }
+    .file\:bg-cream::file-selector-button {
+        background-color: #F2F2F2;
+    }
+    .file\:text-olive::file-selector-button {
+        color: #6A994E;
+    }
+    .hover\:file\:bg-gray-200:hover::file-selector-button {
+        background-color: #e5e7eb;
+    }
+}
